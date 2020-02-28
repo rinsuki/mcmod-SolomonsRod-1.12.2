@@ -1,0 +1,21 @@
+[
+{
+  "modid": "SolomonsRod",
+  "name": "SolomonsRod",
+  "description": "Add rods like one in the game Solomon's Key",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://forum.minecraftuser.jp/viewtopic.php?f=13&t=6672",
+  "updateUrl": "",
+  "authorList": [
+    "takanasayo"
+  ],
+  "credits": "takanasayo",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

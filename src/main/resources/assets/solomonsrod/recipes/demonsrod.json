@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " pd",
+        " rp",
+        "r  "
+    ],
+    "key": {
+        "p": {
+            "item": "minecraft:ender_pearl"
+        },
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "r": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "solomonsrod:demonsrod",
+        "data": 0
+    }
+}

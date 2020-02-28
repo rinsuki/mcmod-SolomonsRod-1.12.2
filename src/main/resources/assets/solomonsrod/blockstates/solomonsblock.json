@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "crash=false":  { "model": "solomonsrod:solomonsblock" },
+        "crash=true":  { "model": "solomonsrod:solomonsblock_crash" }
+    }
+}
