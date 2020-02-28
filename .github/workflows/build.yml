@@ -16,9 +16,9 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: deobf
-          path: build/libs/*.jar
+          path: build/libs
       - run: ./gradlew reobfJar
       - uses: actions/upload-artifact@v1
         with:
           name: normal
-          path: build/libs/*.jar
+          path: build/libs
