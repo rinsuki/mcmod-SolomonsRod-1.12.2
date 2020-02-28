@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./gradlew setupCiWorkspace
+      - run: ./gradlew jar
+      - uses: actions/upload-artifact@v1
+        with:
+          name: deobf
+          path: build/libs/*.jar
+      - run: ./gradlew reobfJar
+      - uses: actions/upload-artifact@v1
+        with:
+          name: normal
+          path: build/libs/*.jar
